@@ -1,0 +1,3 @@
+app_identifier("com.leo.mycoasterapp") # iOS
+apple_id("youremail@apple.com") # para TestFlight uploads
+json_key_file("fastlane/google-play.json") # para Play Store

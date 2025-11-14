@@ -97,3 +97,8 @@ yarn-error.log
 .env
 .env.*
 !.env.example
+
+# Ignore fastlane sensitive files
+fastlane/*.json
+fastlane/*.p8
+fastlane/.env*
