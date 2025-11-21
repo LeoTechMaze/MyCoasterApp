@@ -1,0 +1,471 @@
+{
+  "parks": [
+    {
+      "name": "Canada's Wonderland",
+      "address": "9580 Jane Street, Vaughan, Ontario, Canada",
+      "operating_since": "1981-05-23",
+      "telephone": "+1 905-832-7000",
+      "location": {
+        "latitude": 43.8430,
+        "longitude": -79.5370
+      },
+      "roller_coasters": [
+        {
+          "name": "AlpenFury",
+          "length": 3280.8,
+          "height": 164.0,
+          "drop": 154.2,
+          "speed": 71.5,
+          "inversions": 7,
+          "duration": "1:20",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "2025-07-12",
+          "status": "operating",
+          "elements": [
+            "LSM Launch (rolling)",
+            "LSM Boost",
+            "Top Hat - Inside",
+            "Zero-G Stall",
+            "Reverse Sidewinder",
+            "Banana Roll"
+          ]
+        },
+        {
+          "name": "Backlot Stunt Coaster",
+          "length": 1960.0,
+          "height": 45.2,
+          "drop": 31.2,
+          "speed": 40.0,
+          "inversions": 0,
+          "duration": "1:04",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Thrill",
+          "operating_since": "2005-05-01",
+          "status": "operating",
+          "elements": [
+            "LIM Launch from 0.0 mph – 40.0 mph in 3 s",
+            "LIM Launch"
+          ]
+        },
+        {
+          "name": "Bat",
+          "length": 935.0,
+          "height": 116.5,
+          "speed": 47.0,
+          "inversions": 3,
+          "duration": "1:48",
+          "g_force": 5.2,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1987",
+          "status": "operating",
+          "elements": [
+            "Catch Car Lift Hill",
+            "Cobra Roll",
+            "Loop",
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Behemoth",
+          "length": 5318.0,
+          "height": 230.0,
+          "speed": 77.0,
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "2008-05-04",
+          "status": "operating",
+          "vertical_angle": 75.0,
+          "elements": [
+            "Chain Lift Hill",
+            "Block Brake"
+          ]
+        },
+        {
+          "name": "Dragon Fyre",
+          "length": 2160.0,
+          "height": 78.0,
+          "drop": 76.0,
+          "speed": 50.0,
+          "inversions": 4,
+          "duration": "1:30",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1981",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill",
+            "Loop",
+            "Loop",
+            "Double Corkscrew"
+          ]
+        },
+        {
+          "name": "Flight Deck",
+          "length": 2260.5,
+          "height": 109.3,
+          "speed": 49.7,
+          "inversions": 5,
+          "duration": "1:28",
+          "material": "Steel",
+          "design": "Inverted",
+          "scale": "Extreme",
+          "operating_since": "1995-05-07",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill",
+            "Roll Over",
+            "Sidewinder",
+            "Double In-Line Twist"
+          ]
+        },
+        {
+          "name": "Fly",
+          "length": 1312.3,
+          "height": 51.8,
+          "drop": 49.8,
+          "speed": 35.0,
+          "inversions": 0,
+          "duration": "1:30",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Thrill",
+          "operating_since": "1999-05-02",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Ghoster Coaster",
+          "length": 1356.0,
+          "height": 41.0,
+          "drop": 39.0,
+          "speed": 35.0,
+          "inversions": 0,
+          "duration": "1:20",
+          "material": "Wood",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "1981",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Leviathan",
+          "length": 5486.0,
+          "height": 306.0,
+          "drop": 306.0,
+          "speed": 92.0,
+          "inversions": 0,
+          "duration": "2:08",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "2012-05-06",
+          "status": "operating",
+          "vertical_angle": 80.0,
+          "elements": [
+            "Chain Lift Hill",
+            "Tunnel",
+            "Over-Banked Curve"
+          ]
+        },
+        {
+          "name": "Mighty Canadian Minebuster",
+          "length": 3828.0,
+          "height": 90.0,
+          "drop": 87.0,
+          "speed": 55.9,
+          "inversions": 0,
+          "duration": "2:02",
+          "material": "Wood",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1981",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Silver Streak",
+          "length": 1122.0,
+          "height": 48.6,
+          "speed": 26.0,
+          "inversions": 0,
+          "duration": "1:16",
+          "g_force": 2.2,
+          "material": "Steel",
+          "design": "Inverted",
+          "scale": "Family",
+          "operating_since": "2001-05-06",
+          "status": "operating",
+          "elements": [
+            "Booster Wheel Lift Hill"
+          ]
+        },
+        {
+          "name": "Snoopy's Racing Railway",
+          "speed": 31.1,
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "2023-05-18",
+          "status": "operating",
+          "elements": []
+        },
+        {
+          "name": "Taxi Jam",
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "1998",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Thunder Run",
+          "length": 1083.0,
+          "height": 33.0,
+          "speed": 40.0,
+          "inversions": 0,
+          "duration": "1:24",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "1986",
+          "status": "operating",
+          "notes": "Partially enclosed track",
+          "elements": []
+        },
+        {
+          "name": "Vortex",
+          "length": 2361.0,
+          "height": 91.0,
+          "drop": 85.0,
+          "speed": 55.0,
+          "inversions": 0,
+          "duration": "1:36",
+          "material": "Steel",
+          "design": "Suspended",
+          "scale": "Thrill",
+          "operating_since": "1991-05-12",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Wilde Beast",
+          "length": 3150.0,
+          "height": 82.0,
+          "drop": 78.0,
+          "speed": 56.0,
+          "inversions": 0,
+          "duration": "2:02",
+          "material": "Wood",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1981",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill"
+          ]
+        },
+        {
+          "name": "Wonder Mountain's Guardian",
+          "length": 1000.0,
+          "height": 60.0,
+          "drop": 30.0,
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Thrill",
+          "operating_since": "2014-05-24",
+          "status": "operating",
+          "elements": [
+            "Chain Lift Hill",
+            "Vertical Drop Track (30 ft drop)"
+          ],
+          "extra_features": [
+            "Dark ride",
+            "Interactive",
+            "Onboard sound"
+          ]
+        },
+        {
+          "name": "Yukon Striker",
+          "length": 3625.0,
+          "height": 223.0,
+          "drop": 245.0,
+          "speed": 80.8,
+          "inversions": 4,
+          "duration": "3:25",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "2019-05-03",
+          "status": "operating",
+          "vertical_angle": 90.0,
+          "elements": [
+            "Chain Lift Hill (223 ft tall with 245 ft drop at 90°)",
+            "Tunnel",
+            "Immelmann",
+            "Zero-G Winder"
+          ]
+        },
+        {
+          "name": "Blauer Enzian",
+          "inversions": 0,
+          "duration": "1:30",
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "1981-05-23",
+          "status": "defunct",
+          "closed": "1985"
+        },
+        {
+          "name": "SkyRider",
+          "length": 2210.0,
+          "height": 88.0,
+          "drop": 84.0,
+          "speed": 51.0,
+          "inversions": 1,
+          "duration": "1:32",
+          "material": "Steel",
+          "design": "Stand Up",
+          "scale": "Extreme",
+          "operating_since": "1985-05-04",
+          "status": "defunct",
+          "closed": "2014-09-01",
+          "elements": [
+            "Chain Lift Hill",
+            "Loop"
+          ]
+        },
+        {
+          "name": "Time Warp",
+          "length": 1282.8,
+          "height": 50.0,
+          "speed": 25.7,
+          "inversions": 2,
+          "duration": "1:04",
+          "g_force": 3.3,
+          "material": "Steel",
+          "design": "Flying",
+          "scale": "Extreme",
+          "operating_since": "2004",
+          "status": "defunct",
+          "closed": "2024",
+          "elements": [
+            "Spiral Lift",
+            "Heartline Roll",
+            "Heartline Roll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hopi Hari",
+      "address": "Rod. dos Bandeirantes, Vinhedo, São Paulo, Brazil",
+      "operating_since": "1999-11-27",
+      "telephone": "+55 11 3270-3609",
+      "location": {
+        "latitude": -23.0970,
+        "longitude": -46.9460
+      },
+      "roller_coasters": [
+        {
+          "name": "Katapul",
+          "length": 722.0,
+          "height": 137.8,
+          "speed": 53.0,
+          "inversions": 1,
+          "vertical_angle": 70.0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1999",
+          "status": "operating",
+          "elements": [
+            "Weight Drop Launch",
+            "Loop"
+          ]
+        },
+        {
+          "name": "Montezum",
+          "length": 3380.0,
+          "drop": 139.0,
+          "speed": 64.0,
+          "inversions": 0,
+          "material": "Wood",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "operating_since": "1999",
+          "status": "operating"
+        },
+        {
+          "name": "Speedi '64",
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Family",
+          "operating_since": "1999",
+          "status": "operating",
+          "elements": [],
+          "notes": "Powered coaster (Twin Helix model); no track stats provided."
+        },
+        {
+          "name": "Vurang",
+          "inversions": 0,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Thrill",
+          "operating_since": "1999",
+          "status": "operating",
+          "elements": [],
+          "extra_features": [
+            "Spinning cars",
+            "Enclosed ride",
+            "Built inside a pyramid"
+          ]
+        },
+        {
+          "name": "unknown",
+          "length": 2870.8,
+          "height": 108.3,
+          "speed": 52.8,
+          "inversions": 10,
+          "material": "Steel",
+          "design": "Sit Down",
+          "scale": "Extreme",
+          "status": "defunct",
+          "notes": "Removed from Hopi Hari; stored between 2012 and 2017",
+          "elements": [
+            "Cable Lift Hill",
+            "Loop",
+            "Cobra Roll",
+            "Double Corkscrew",
+            "Quad Heartline Roll",
+            "Heartline Roll"
+          ]
+        }
+      ]
+    }
+  ]
+}
