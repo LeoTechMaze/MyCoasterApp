@@ -3,6 +3,7 @@ import { Text, View, StyleSheet } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import { useTheme } from '../theme';
+import { ParkNavigator } from '../features/parks/navigation/ParkNavigator';
 
 type TabParamList = {
   Park: undefined;
@@ -51,7 +52,6 @@ const ScreenContainer = ({ title }: { title: string }) => {
   );
 };
 
-const ParkScreen = () => <ScreenContainer title="Park Overview" />;
 const RollerCoasterScreen = () => <ScreenContainer title="Roller Coasters" />;
 const UserScreen = () => <ScreenContainer title="User Profile" />;
 
@@ -62,6 +62,14 @@ export const TabNavigator = () => {
     <Tab.Navigator
       screenOptions={({ route }) => ({
         headerTitleAlign: 'center',
+        headerStyle: {
+          backgroundColor: theme.colors.surface,
+        },
+        headerTintColor: theme.colors.textPrimary,
+        headerTitleStyle: {
+          fontWeight: '700',
+        },
+        headerShadowVisible: false,
         tabBarActiveTintColor: theme.colors.primary,
         tabBarInactiveTintColor: theme.colors.textMuted,
         tabBarStyle: {
@@ -77,8 +85,8 @@ export const TabNavigator = () => {
       })}>
       <Tab.Screen
         name="Park"
-        component={ParkScreen}
-        options={{ tabBarLabel: 'Park', title: 'Park' }}
+        component={ParkNavigator}
+        options={{ tabBarLabel: 'Park', title: 'Parks', headerShown: false }}
       />
       <Tab.Screen
         name="RollerCoaster"

@@ -1760,6 +1760,25 @@
     use-latest-callback "^0.2.4"
     use-sync-external-store "^1.5.0"
 
+"@react-navigation/elements@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-2.9.2.tgz#0ee330ff9b82f748f05630616ada9426b1f07911"
+  integrity sha512-J1GltOAGowNLznEphV/kr4zs0U7mUBO1wVA2CqpkN8ePBsoxrAmsd+T5sEYUCXN9KgTDFvc6IfcDqrGSQngd/g==
+  dependencies:
+    color "^4.2.3"
+    use-latest-callback "^0.2.4"
+    use-sync-external-store "^1.5.0"
+
+"@react-navigation/native-stack@^7.0.1":
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native-stack/-/native-stack-7.8.6.tgz#e40cce7c4825a3ffc878ef1503350b3bf173cfa6"
+  integrity sha512-eBY92xb4H53c9jiWriKMOZmQ/Tu9w1qcUrgOA/qjQOvJFbgKF9D6y3e4UuBaDQzjWjLEDZLaiwXe8cwXRb46mg==
+  dependencies:
+    "@react-navigation/elements" "^2.9.2"
+    color "^4.2.3"
+    sf-symbols-typescript "^2.1.0"
+    warn-once "^0.1.1"
+
 "@react-navigation/native@^7.0.1":
   version "7.1.21"
   resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-7.1.21.tgz#77228e0c556a35e5d6aa7e571a17465ae796f789"
@@ -6514,7 +6533,7 @@ walker@^1.0.7, walker@^1.0.8:
   dependencies:
     makeerror "1.0.12"
 
-warn-once@^0.1.0:
+warn-once@^0.1.0, warn-once@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/warn-once/-/warn-once-0.1.1.tgz#952088f4fb56896e73fd4e6a3767272a3fccce43"
   integrity sha512-VkQZJbO8zVImzYFteBXvBOZEl1qL175WH8VmZcxF2fZAoudNhNDvHi+doCaAEdU2l2vtcIwa2zn0QK5+I1HQ3Q==
